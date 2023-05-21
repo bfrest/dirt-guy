@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🛰️THE DIRT GUYS🛰️</title>
+    <style>
+       body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: monospace;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav {
+        background-color: yellow;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        height: 10%;
+      }
+
+      .nav-item {
+        font-size: 1rem;
+        font-weight: 500;
+        width: 100%;
+        height: 100%;
+        transition: all .3s;
+        text-decoration: none;
+        color: black;
+        padding: 1.5rem 1rem;
+      }
+
+      .nav-item:hover {
+        background-color: #000;
+        color: white;
+        cursor: pointer;
+      }
+
+      .hero {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+      }
+
+      .hero-img {
+        height: 700px;
+        width: 100%;
+        background-image: url(https://res.cloudinary.com/bfrest/image/upload/v1532725200/foxridge/DJI_0791.jpg);
+        position: absolute;
+        /* filter: blur(3px); */
+        background-size: cover;
+        background-color: #000;
+      }
+
+      .hero h1 {
+        font-size: 80px;
+        text-transform: uppercase;
+        z-index: 2;
+        color: #fff;
+      }
+
+      .header {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(https://res.cloudinary.com/bfrest/image/upload/v1532725200/foxridge/DJI_0791.jpg);
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+      }
+
+      .statement {
+        padding: 2rem;
+        margin: 5rem 0;
+        font-size: 1.5rem;
+        font-weight: 500;
+        background-color: #f8f8ff;
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .statement:nth-child(1) {
+        margin-left: -40%;
+      }
+
+      .statement:nth-child(2) {
+        margin-left: -10%;
+      }
+
+      .statement:nth-child(3) {
+        margin-left: 40%;
+      }
+
+      .info {
+        padding: 5rem;
+      }
+
+      .about  {
+        padding: 20px;
+      }
+
+      @media (min-width: 320px) {
+        .statement, .info, .nav-item {
+          font-size: 1rem
+        }
+
+        .nav-item {
+          font-size: 1.2rem;
+        }
+      }
+
+        @media (min-width: 481px) {
+        .statement, .info, .nav-item {
+          font-size: 1rem
+        }
+
+        .statement {
+          padding: 1rem;
+        }
+
+        .nav-item {
+          font-size: 1.2rem;
+        }
+      }
+
+        @media (min-width: 769px) {
+        .statement, .info, .nav-item {
+          font-size: 1rem
+        }
+
+        .nav-item {
+          font-size: 1.3rem;
+        }
+      }
+
+        @media (min-width: 1025px) {
+        .statement, .info, .nav-item {
+          font-size: 1.8rem
+        }
+        
+        .statement {
+          padding: 2rem;
+        }
+
+        .nav-item {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <nav>
+        <a href="#" class="nav-item">Home</a>
+        <a href="#" class="nav-item">About</a>
+        <a href="#" class="nav-item">Contact</a>
+    </nav> -->
+    <nav>
+      <p>
+        WE'RE THE DIRT GUYS, WE ARE REALLY GOOD AT...
+      </p>
+    </nav>
+<!-- 
+    <div class="hero">
+      <div class="hero-img"></div>
+      <h1>We Love Dirt!</h1>
+    </div> -->
+   
+    <div class="header">
+      <p class="statement">Site Grading,<br /> Land Development,<br /> Utilities,</p>
+      <p class="statement">Civil Site Layout & Machine Control models</p>
+      <p class="statement">Land Topography Maps & Precise Takeoffs</p>
+    </div>
+
+    <!-- <div class="about">
+      <p class="about-text">
+        We are the dirt guys, the premier provider of precision earth works solutions. With our expertise in utilizing GPS technology on heavy equipment, we deliver unparalleled accuracy and efficiency in every project we undertake.
+      </p>
+      <p class="about-text">
+        We pride ourselves on our ability to create 3D models for machine control, leveraging cutting-edge technology to transform construction plans into reality. By integrating precise GPS data into our heavy equipment operations, we ensure that every cut, fill, and grading operation is executed with the utmost precision, saving time and resources.
+      </p>
+      <p class="about-text">
+        What sets us apart from the competition is our team of dedicated "dirt nerds." We are passionate about our craft and obsessed with delivering the highest quality results. Our attention to detail and commitment to excellence drive us to go the extra mile on every project, no matter the scale or complexity.
+      </p>   
+      <p class="about-text"> 
+        With our unwavering focus on quality and our deep understanding of the intricacies of earth works, we are well-equipped to compete with the best in the industry. Our team's expertise, combined with our state-of-the-art equipment and advanced GPS technology, allows us to consistently surpass client expectations and deliver projects on time and within budget.
+      </p>
+      <p class="about-text">    
+        Whether it's site preparation, excavation, grading, or any other earth works task, we are your trusted partner for precision and reliability. Contact us today to experience the difference our passion and expertise can make in your next project.
+      </p>
+      <p class="about-text">     
+        "Precision. Passion. Performance."
+      </p>
+    </div> -->
+
+    <div >
+      <p class="info">To request a model, site grading or inquire more information about our services, contact us <a href="mailto:freston75@gmail.com">here</a></p>
+    </div>
+    
+  </body>
+</html>
